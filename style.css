@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header{
+    background-color: #43f0bf;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+ header nav ul li{
+    display: inline;
+    margin: 0 15px;
+ }
+
+ header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+ }
+
+
+ header nav ul li a:hover{
+    text-decoration: underline;
+ }
+
+  .hero{
+  background: url('https://files.oaiusercontent.com/file-A2UA5oJE5ojquvTDXUZnjo?se=2024-11-23T11%3A35%3A45Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dd961385e-8fdb-4d8a-a4ca-e23a2e4d55b7.webp&sig=Vlq3A0i7VsHMu8q0G6J7xjx4WU2aC4DDbAqorcEzrbo%3D');
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+  }
+  
+   .hero h2 {
+    font-size: 48px;
+    margin-top: 10px;
+   }
+    
+    .hero p{
+        font-size: 20px;
+    }
+     
+     .hero .btn{
+        background-color: #4ae2b4;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 20px;
+     }
+
+      .hero  .btn:hover{
+        background-color: #0b77e4;
+      }
+
+       main{
+        padding: 20px;
+        text-align: center;
+       }
+
+       #about{
+        padding: 40px 20px;
+        background-color: white;
+       }
+
+        #tours{
+            padding: 40px 20px;
+        }
+
+         .tour-card{
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px auto;
+            width: 100%;
+            display: inline-block;
+         }
+
+         .tour-card h3{
+            color: #4A90E2;
+         }
+
+         .tour-card .btn{
+            background-color: #4A90E2;
+            color: white;
+            padding: 30px;
+            border-radius: 5px;
+         }
+
+         .tour-card .btn:hover{
+            background-color: #357ABD;
+         }
+          
+         #contact{
+            padding: 40px 20px;
+            background-color: white;
+         }
+          
+         #contact form input,
+         #contact form textarea{
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid white;
+         } 
+
+          #contact form button{
+            background-color: white;
+            padding: 10px;
+          }
+
+          footer{
+            background-color: #4A90E2;
+            color: white;
+          }
+      
